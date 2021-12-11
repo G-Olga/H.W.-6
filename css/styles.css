@@ -365,7 +365,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   background-color: rgba(47, 48, 58, 0.8);
-  color: var(--text-color);
+  color: var(--title-color);
 }
 
 .our-team {
@@ -616,8 +616,8 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 200px;
-  min-height: 50px;
+  width: 200px;
+  height: 50px;
   padding: 10px 29px;
 
   color: var(--title-color);
@@ -632,11 +632,6 @@ body {
   transition-property: background-color;
   transition-duration: var(--duration);
   transition-timing-function: var(--function);
-}
-
-.form-btn:focus,
-.form-btn:hover {
-  background-color: var(--hero-btn-accent-color);
 }
 
 .form-btn-text {
@@ -751,12 +746,12 @@ body {
 }
 
 .modal {
-  width: 500px;
-  min-height: 500px;
+  width: 528x;
+  min-height: 581px;
   background-color: var(--title-color);
   border-radius: 5px;
-  position: absolute;
-  top: 23%;
+  position: fixed;
+  top: 50%;
   left: 50%;
 
   transform: scale(1) rotate(0) translate(-50%, -50%);
@@ -922,7 +917,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: var(--first-text-color);
+  color: var(--second-text-color);
 }
 
 .link-agreement {
